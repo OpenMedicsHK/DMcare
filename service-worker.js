@@ -18,7 +18,7 @@ const networkFirstStrategy = (name) => workboxSW.strategies.networkFirst(cachePa
 workboxSW.precache([
   {
     "url": "/DMcare/index.html",
-    "revision": "511c39e153db31fbc2627de52465ba0e"
+    "revision": "9aa8ec5106e223a4eae5c959a00fd347"
   },
   {
     "url": "OneSignalSDKUpdaterWorker.js",
@@ -30,11 +30,11 @@ workboxSW.precache([
   },
   {
     "url": "service-worker.js",
-    "revision": "656442bac41ee41bddc67a700ef819eb"
+    "revision": "55f8e1f84597b6cf5586e6e31d3b63df"
   },
   {
-    "url": "/DMcare/static/css/app.c68de87fd0b8ab8e574b63238df1fbeb.css",
-    "revision": "c165aaacc8e5402ba267d99eeb427574"
+    "url": "/DMcare/static/css/app.a3a95ff885a8fd7be161d00aea7af08b.css",
+    "revision": "2a43c4a3ddb80c56bc9253e1ad7f2815"
   },
   {
     "url": "/DMcare/static/img/hypergly.jpg",
@@ -93,16 +93,16 @@ workboxSW.precache([
     "revision": "744b3f2c9bc3f0b7339082d73954177f"
   },
   {
-    "url": "/DMcare/static/js/app.20e8347ef6cad8b154b6.js",
-    "revision": "30ec22af50882c89aada358297f1e772"
+    "url": "/DMcare/static/js/app.6e28bc64287aa7c1df58.js",
+    "revision": "9b278de4f7d0a321bb405a82e424bc57"
   },
   {
-    "url": "/DMcare/static/js/manifest.9b375dffa331ffcc72b7.js",
-    "revision": "310d7707518535de129801de7a3147fb"
+    "url": "/DMcare/static/js/manifest.9fd789c5aa10c8a8d05f.js",
+    "revision": "189aff71f67f871581c6814254e4a17c"
   },
   {
-    "url": "/DMcare/static/js/vendor.b705f013b411880df5e8.js",
-    "revision": "3262d440fb6f4135fc5f5d993b161fc9"
+    "url": "/DMcare/static/js/vendor.5392b4592a0995c70e58.js",
+    "revision": "cc469b1ee11dc2a330f0ed1a920530fe"
   },
   {
     "url": "workbox-sw.prod.v2.1.1.js",
@@ -123,9 +123,9 @@ self.addEventListener('push', function(event) {
   console.log('[Service Worker] Push Received.');
   console.log(`[Service Worker] Push had this data: "${event.data.text()}"`);
 
-  const title = 'Jap Manga Club';
+  const title = 'DM care';
   const options = {
-    body: '新漫畫上架！點此瀏覽更多',
+    body: 'News about DM!',
     icon: 'static/img/icons/android-chrome-512x512.png',
     badge: 'static/img/icons/android-chrome-512x512.png'
   };
